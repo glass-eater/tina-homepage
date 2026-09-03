@@ -1,0 +1,26 @@
+img {
+    max-width:100%;
+}
+body {
+    background-color: rgb(55, 144, 222);
+    font-size: 16px;
+}
+
+p {
+    background-color:lightblue;
+    color: rgba(244, 56, 181, 0.5);
+    /*border shorthand property expects 3 values; border-width, border-style, and border-color*/
+    border:10px dotted ;
+    /*padding adds internal spacing within elements, margin adds external spacing around elements.*/
+    padding:50px;
+    margin:50px;
+    /* width:200px; */
+    /* height:200px; */
+    /*auto to scroll within element*/
+    overflow:auto;
+}
+
+.banner {
+    background-color: yellowgreen;
+    text-align:center;
+}
