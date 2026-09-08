@@ -1,0 +1,28 @@
+@font-face {
+  font-family: cascadiaCode;
+  src: url(cascadiaCodeVariableFontwght.ttf);
+}
+
+body {
+    background-color: rgb(52, 12, 12);
+    font-family: cascadiaCode;
+    color:beige;
+    border:5px dotted;
+    padding: 75px;
+}
+
+h3 {
+    color:rgb(109, 177, 255);
+}
+
+a {
+    color:greenyellow;
+}
+
+a:visited {
+    color:rgb(124, 68, 138);
+}
+
+a:hover {
+    color:orchid;
+}

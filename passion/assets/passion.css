@@ -1,0 +1,47 @@
+@font-face {
+  font-family: hennyPenny;
+  src: url("hennyPenny.ttf");
+}
+
+@font-face {
+    font-family: gaegu;
+    src: url("gaeguregular.ttf")
+}
+
+body {
+    background-image: url("catFurBackground2.jpeg");
+    background-size: 100%;
+    padding: 75px;
+    font-family: gaegu;
+    font-size: 130%;
+    color: beige;
+}
+
+h1 {
+    font-family: hennyPenny;
+    font-size:60px;
+    border:lightpink 5px dotted;
+    padding: 20px;
+    background: cornflowerblue;
+}
+
+li {
+    background:rgb(138, 194, 234, .7);
+}
+
+a {
+    color: red;
+}
+
+a.hover {
+    color: yellowgreen;
+}
+
+a.visited {
+    color: orchid;
+}
+
+ul{
+    list-style:none;
+
+}
