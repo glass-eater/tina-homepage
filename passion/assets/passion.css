@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 @font-face {
   font-family: hennyPenny;
   src: url("hennyPenny.ttf");
@@ -11,6 +15,10 @@
 body {
     background-image: url("catFurBackground2.jpeg");
     background-size: 100%;
+    /* background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; */
+    max-height: 4608px;
     padding: 75px;
     font-family: gaegu;
     font-size: 130%;
@@ -20,28 +28,32 @@ body {
 h1 {
     font-family: hennyPenny;
     font-size:60px;
-    border:lightpink 5px dotted;
+    border:red 5px dotted;
     padding: 20px;
-    background: cornflowerblue;
-}
-
-li {
-    background:rgb(138, 194, 234, .7);
+    background: rgb(118, 170, 230);
 }
 
 a {
     color: red;
 }
 
-a.hover {
-    color: yellowgreen;
+a:visited {
+    color: darkred;
 }
 
-a.visited {
-    color: orchid;
+a:hover {
+    color:greenyellow;
 }
 
 ul{
     list-style:none;
+    padding:30px;
+}
 
+li {
+    background:rgb(138, 194, 234, .5);
+}
+
+img:hover {
+    background-color:rgba(190, 255, 134, 0.5);
 }
