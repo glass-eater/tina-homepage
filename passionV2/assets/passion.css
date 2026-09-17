@@ -3,13 +3,13 @@
 }
 
 @font-face {
-  font-family: hennyPenny;
-  src: url("hennyPenny.ttf");
+  font-family: eagleLake;
+  src: url("eagleLake.ttf");
 }
 
 @font-face {
-    font-family: gaegu;
-    src: url("gaeguregular.ttf")
+    font-family: cormorant;
+    src: url("cormorant.ttf")
 }
 
 body {
@@ -23,13 +23,13 @@ body {
     padding-top: 40px;
     padding-bottom: 40px;
     margin:20px;
-    font-family: gaegu;
+    font-family: cormorant;
     font-size: 130%;
     color: beige;
 }
 
 h1 {
-    font-family: hennyPenny;
+    font-family: eagleLake;
     font-size:60px;
     border:red 5px dotted;
     padding: 20px;
