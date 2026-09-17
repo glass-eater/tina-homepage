@@ -19,10 +19,10 @@ body {
     background-attachment: fixed;
     background-position: center; */
     max-height: 4608px;
-    padding: 300px;
-    padding-top: 40px;
+    padding: 50px;
+    padding-top: 20px;
     padding-bottom: 40px;
-    margin:20px;
+    margin:50px;
     font-family: cormorant;
     font-size: 130%;
     color: beige;
