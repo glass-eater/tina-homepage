@@ -54,7 +54,7 @@ a:hover {
 
 img:hover {
     background-color:rgba(190, 255, 134, 0.5);
-    width:40%;
+    scale:2;
 }
 
 /* .catName { 
