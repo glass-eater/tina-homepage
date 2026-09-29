@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+}
+img {
+    max-width: 100%;
+}
+
+.box {
+    background-color:yellowgreen;
+    width:100px;
+    height:100px;
+    border: 1px solid lightpink;
+    margin: 10px 0px;
+}
+
+.relative {
+    background-color:lightskyblue;
+    position:relative;
+    top:50px;
+    left:50px;
+}
+
+.fixed{
+    background-color:chartreuse;
+    position:fixed;
+    bottom:0;
+    right:0;
+    margin:0;
+    
+}
+
+.sticky {
+    background-color:lavender;
+    position:sticky;
+    top:20px;
+}
+
+.absolute {
+    background-color:chocolate;
+    position: absolute;
+    top:100px;
+    right:100px;
+}
+
+.a1{
+    top:100px;
+    bottom:100px;
+}
+
+.a2 {
+top:100px;
+}
+
+.parent {
+    background-color:blue;
+    width: 300px;
+    height: 300px;
+    position:relative;
+    top:0;
+    right:0;
+}
+
+.child {
+    background-color:brown;
+    width: 50px;
+    height:50px;
+    position: absolute;
+    top:-50px;
+    right:0;
+}
+
+
+.smiley {
+    background-color:yellow;
+    width: 200px;
+    height:200px;
+    position:relative;
+}
+
+.eye {
+    background-color:brown;
+    width:50px;
+    height:50px;
+    border: 10px solid hotpink;
+    position:absolute;
+
+}
+
+.left {
+    top:40px;
+    left:40px;
+}
+
+.right {
+    top:40px;
+    right:40px;
+}
+
+.mouth {
+    background-color:red;
+    width:100px;
+    height:30px;
+    position: absolute;
+    bottom: 20px;
+    left:50px;
+    border-radius:0 0 100% 100%;
+}
+
+.nose{
+    background-color:orange;
+    width:40px;
+    height:100px;
+    position:absolute;
+    top:50px;
+    left:80px;
+}
