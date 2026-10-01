@@ -12,10 +12,16 @@ img {
 }
 
 body {
-    background:beige;
+    background:bisque;
     font-family: spaceMono;
     margin:0;
 }
+
+h1 {
+    margin-left:20%;
+    margin-top:5%;
+}
+
 
 .room {
     /* background:yellow; */
@@ -61,7 +67,8 @@ body {
     flex-direction: column;
     height:35%;
     width:50%;
-    background:blue;
+    background:yellowgreen;
+    border:2px solid blue;
 }
 
 .radiator {
@@ -72,7 +79,8 @@ body {
     margin-left:10px;
     margin-top:20px;
     margin-bottom:15px;
-    background:orchid;
+    background:beige;
+    border:2px solid blue;
 }
 
 .mirror {
@@ -80,8 +88,9 @@ body {
     flex-direction:column;
     height:15%;
     width:10%;
-    background:brown;
+    background:rgb(118, 72, 44);
     margin-bottom:10px;
+    border:2px solid blue;
 }
 
 .sunroom {
@@ -90,7 +99,7 @@ body {
     height:25%;
     width:5%;
     margin-bottom:10px;
-    background:red;
+    /* background:red; */
 }
 
 .sleepZone {
@@ -106,9 +115,10 @@ body {
     flex-direction:column;
     height:100%;
     width:70%;
-    background:coral;
+    background:rgb(185, 139, 199);
     justify-self:center;
     margin-left:65px;
+    border:2px solid blue;
 }
 
 .nightstand {
@@ -116,19 +126,21 @@ body {
     flex-direction:row;
     height:15%;
     width:15%;
-    background:lime;
+    background:rgb(118, 72, 44);
     margin:5px;
     margin-right:0;
+    border:2px solid blue;
 }
 .desk2 {
     display:flex;
     flex-direction: row;
     height:20%;
     width:70%;
-    background: orange;
+    background: rgb(60, 150, 108);
     align-self:center;
     justify-self:flex-end;
     margin-top:120px;
+    border:2px solid blue;
 }
 
 .closet {
@@ -136,7 +148,7 @@ body {
     flex-direction: row;
     height:25%;
     width:7%;
-    background:purple;
+    /* background:purple; */
     align-self:flex-end;
     margin-top:15px;
 }
@@ -146,9 +158,10 @@ body {
     flex-direction: row;
     height:30%;
     width:60%;
-    background:olive;
+    background:rgb(118, 72, 44);
     align-self:flex-end;
     margin-top: 5px;
+    border:2px solid blue;
 }
 
 .rack {
@@ -157,8 +170,9 @@ body {
     height:25%;
     width:50%;
     align-self:flex-end;
-    background:hotpink;
+    background:lightpink;
     margin-top:5px;
+    border:2px solid blue;
 }
 
 .door {
@@ -166,7 +180,7 @@ body {
     flex-direction:row;
     height:2%;
     width:95%;
-    background:goldenrod;
+    /* background:goldenrod; */
     margin-top:100px;
     justify-self:flex-end;
     align-self:flex-end;
@@ -185,27 +199,29 @@ body {
     display:flex;
     flex-direction:row;
     justify-self:center;
-    background:lightcyan;
+    background:beige;
     height:95%;
     width:45%;
     margin-top:5px;
+    border:2px solid blue;
 }
 .blanket {
     display:flex;
     flex-direction:column;
-    background:orangered;
+    background:purple;
     height:80%;
     width:100%;
     margin-top:10px;
+    border:2px solid blue;
 }
 .closetBorder {
     border-top:2px solid;
     border-right:2px solid;
     border-image:linear-gradient(
         to bottom, 
-        black 0% 3%, 
+        blue 0% 3%, 
         transparent 3% 27%, 
-        black 27% 100%
+        blue 27% 100%
         ) 1;
 }
 
@@ -214,47 +230,159 @@ body {
     border-left:2px solid;
     border-image:linear-gradient(
         to bottom,
-        black 0% 73%,
+        blue 0% 73%,
         transparent 73% 97%,
-        black 97% 100%
+        blue 97% 100%
     ) 1;
-    top:69px;
-    right:47px;
+    top:0;
+    right:3.7%;
+    z-index:1;
 }
 
 .entrance {
     border-bottom:2px solid;
     border-image:linear-gradient(
         to right,
-        black 0 81%,
+        blue 0 81%,
         transparent 81% 100%
     ) 1;
     position:absolute;
-    top:69px;
-    right:47px;
+    top:0;
+    right:3.7%;
+    z-index:1;
 }
 
 .rug {
     position:absolute;
     width:30%;
     height:40%;
-    background:palevioletred;
-    top:10px;
-    z-index:1;
+    background:rgb(60, 32, 27);
+    z-index:2;
     display:flex;
     align-self:center;
     justify-self:center;
-    margin-top:20%;
-    margin-left:3%;
+    /* margin-top:12%; */
+    /* margin-left:3%; */
+    top:25%;
+    right:33.5%;
+    border:2px solid blue;
 }
 
 .chair1 {
     position:absolute;
-    width:5%;
-    height:13%;
+    width:7%;
+    height:17%;
     background:lightskyblue;
     border-radius:100% 100% 100% 100%;
-    top:27%;
-    left:60%;
-    z-index:1;
+    top:25%;
+    left:28%;
+    z-index:2;
+    border:2px solid blue;
+}
+
+.chair2 {
+    position:absolute;
+    width:6%;
+    height:10%;
+    background:seagreen;
+    border-radius:100% 100% 100% 100%;
+    top:52%;
+    left:25%;
+    z-index: 2;
+    border:2px solid blue;
+}
+
+.objectLink {
+    display:flex;
+    flex-direction:column;
+    height:100%;
+    width:100%;
+    z-index:5;
+}
+
+.mainDresser {
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+    height:200vh;
+    width:80vw;
+    border:2px solid;
+    padding:50px;
+    margin:100px;
+    margin-bottom:0px;
+    margin-top:300px;
+}
+
+.smallDrawer {
+display:flex;
+flex-direction:row;
+height:12%;
+width:100%;
+border:2px solid;
+justify-content: space-between;
+align-items: center;
+padding-left:40px;
+padding-right:40px;
+}
+
+.drawer {
+    display:flex;
+    flex-direction:row;
+    height:22%;
+    width:100%;
+    border:2px solid;
+    justify-content: space-between;
+    align-items: center;
+    padding-left:40px;
+    padding-right:40px;
+}
+
+.knob {
+    display:flex;
+    height:10%;
+    width:10%;
+    border:2px solid;
+}
+.floor {
+    display:flex;
+    flex-direction:column;
+    width:100%;
+    height:20vh;
+    border-top:2px solid;
+}
+
+.mainDesk {
+    display:flex;
+    flex-direction:row;
+    margin:100px;
+    margin-top:600px;
+    margin-bottom:0px;
+    height:100vh;
+    width:200vw;
+
+}
+
+.deskLeg {
+    display:flex;
+    height:100%;
+    width:2%;
+    border:2px solid;
+}
+
+.deskBody {
+    display:flex;
+    height:30%;
+    width:80%;
+    border:2px solid;
+    justify-content:center;
+    align-items:center;
+}
+
+.deskDrawer {
+    display:flex;
+    height:80%;
+    width:30%;
+    border:2px solid;
+    justify-content:center;
+    align-items:center;
 }
