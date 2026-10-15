@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+img {
+    max-width: 100%;
+}
+
+.responsive{
+    background:yellowgreen;
+    padding:20px;
+    margin-bottom:10px;
+    max-width:700px;
+    border:0px;
+    transition:all 2s;
+}
+
+body{
+    background:hotpink;
+    transition:background 2s;
+}
+
+
+/* min-width = mobile first, media queries get progressively larger. */
+
+/* max-width = desktop first, media queries get progressively smaller. */
+@media screen and (max-width: 1000px) {
+  body {
+    background-color: lightblue;
+    color: white;
+  }
+  .responsive{
+    background:orchid;
+    border:brown, dashed, 5px;
+  }
+}
+
+@media screen and (max-width: 600px){
+    body {
+        background:yellow;
+    }
+    .responsive{
+        font-size:200%;
+        padding:80px;
+    }
+}
