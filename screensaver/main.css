@@ -17,17 +17,31 @@ body{
     flex-direction:column;
     /* align-items:center; */
     border:dotted 2px rgb(230, 0, 0);
-    animation:border 6s infinite alternate, backgroundChange 30s infinite;
+    animation:border 6s infinite alternate, backgroundChange 30s infinite linear;
     overflow:hidden;
     justify-content:space-between;
     position:relative;
 }
-
+.innerContainer{
+    height:100%;
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    animation: innerborder 2s infinite alternate;
+}
+@keyframes innerborder{
+    0%{
+        border:groove 3px orangered;
+    }100%{
+        border:groove 13px yellow;
+    }
+}
 @keyframes border{
     0%{
-        border:groove 2px rgb(230, 0, 0,1);
+        border:dotted 2px rgb(230, 0, 0,1);
     }100%{
-        border:groove 100px rgb(230, 0, 0,0);
+        border:dotted 100px rgb(230, 0, 0,0);
     }
 }
 
